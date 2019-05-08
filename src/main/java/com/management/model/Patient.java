@@ -6,6 +6,11 @@ public class Patient {
 	int age;
 	String contactNo;
 	String address;
+	String mode;
+	public Patient()
+	{
+		
+	}
 	public Patient(int id,String name,int age,String contactNo,String address)
 	{
 		this.id=id;
@@ -43,6 +48,12 @@ public class Patient {
 	}
 	public void setAddress(String address) {
 		this.address = address;
+	}
+	public String getMode() {
+		return mode;
+	}
+	public void setMode(String mode) {
+		this.mode = mode;
 	}
 
 }
